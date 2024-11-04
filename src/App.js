@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Blog from './Pages/Blog';
 import Footer from './components/Footer';
 import { useEffect } from 'react';
+import Services from './Pages/Services';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/About' element={<About/>}/>
           <Route path='/Blog' element={<Blog/>}/>
+          <Route path='/Services' element={<Services/>}/>
         </Routes>
         <Footer/>
     </div>

@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <div className='bg-black text-white p-6'>
             <div className=' flex items-center justify-start space-x-4 p-4 flex-wrap'>
-                <Link to={'/'}>
-                    <div className='text-yellow-500 border-r-2 border-gray-500 px-4 text-start'>Forum</div>
+                <Link to={'/Services'}>
+                    <div className='text-yellow-500 border-r-2 border-gray-500 px-4 text-start'>Services</div>
                 </Link>
                 <Link to={'/About'}>
                     <div className='text-yellow-500 border-r-2 border-gray-500 px-4 text-start'>About</div>

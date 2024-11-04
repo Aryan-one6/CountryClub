@@ -16,10 +16,12 @@ export const Navbar = () => {
         </div>
 
         <div className='flex gap-2'>
+          <Link to={'/Services'}>
           <button className="bg-indigo-500 h-10 flex items-center space-x-2 px-4 rounded text-white">
-            EN
+            Services
             <LanguageIcon sx={{ color: 'white' }} />
           </button>
+          </Link>
           <button className="bg-indigo-500 h-10 flex items-center space-x-2 px-4 rounded text-white">
             SignIn
             <PersonIcon sx={{ color: "white" }} />
