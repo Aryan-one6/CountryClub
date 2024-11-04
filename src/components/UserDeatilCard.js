@@ -13,8 +13,8 @@ const UserDetailCard = () => {
     return (
         <div className='mt-24 px-4'>
             {Array.isArray(userData) && userData.length > 0 ? (
-                userData.map((person) => (
-                    <div key={person.id} className="border sm:p-4 p-2 mb-4 text-white bg-yellow-600 rounded-lg shadow-md flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-10">
+                userData.map((person,id) => (
+                    <div key={id} className="border sm:p-4 p-2 mb-4 text-white bg-yellow-600 rounded-lg shadow-md flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-10">
                         <div className='sm:w-1/4 w-full'>
                             <img src={person.profileImage} alt='UserProfileImage' className='w-full h-auto rounded-lg' />
                         </div>

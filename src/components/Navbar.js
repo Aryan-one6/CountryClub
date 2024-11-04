@@ -1,21 +1,24 @@
 import React from 'react';
 import logoImage from '../Images/logoImage.jpg';
-import DeleteIcon from '@mui/icons-material/Delete';
 import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
+import LanguageIcon from '@mui/icons-material/Language';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
     <>
       <div className="flex p-4 justify-between items-center bg-black" id='mainHeader'>
         <div className="companyLogoImage">
+          <Link  to={'/'}>
           <img src={logoImage} className="h-14 w-28" alt="Logo" />
+          </Link>
         </div>
 
         <div className='flex gap-2'>
           <button className="bg-indigo-500 h-10 flex items-center space-x-2 px-4 rounded text-white">
             EN
-            <DeleteIcon sx={{ color: 'white' }} />
+            <LanguageIcon sx={{ color: 'white' }} />
           </button>
           <button className="bg-indigo-500 h-10 flex items-center space-x-2 px-4 rounded text-white">
             SignIn
