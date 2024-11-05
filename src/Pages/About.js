@@ -1,5 +1,5 @@
 import React from 'react'
-import PeopleReviews from '../components/PeopleReviews'
+import PeopleReviews from '../components/About/PeopleReviews'
 
 const About = () => {
     return (

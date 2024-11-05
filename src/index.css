@@ -9,7 +9,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(53, 53, 53);
+  font: 14px/1.7 Helvetica,Arial,sans-serif;
+  background: #333 url(https://d257pz9kz95xf4.cloudfront.net/assets/layout/texture-b9beac30c0dfa74797a20c4f2547cff4c3bc597319acc0c53a60c95abdba3e51.png) top left;
+  margin: 0;
+  color: #fff;
+  background-color: #333;
 }
 
 code {

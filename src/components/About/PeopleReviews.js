@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import {reviews} from '../UserInfo/UsersReviews'
+import {reviews} from '../../UserInfo/UsersReviews'
+
 
 const PeopleReviews = () => {
 
