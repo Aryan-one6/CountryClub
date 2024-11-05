@@ -28,7 +28,7 @@ export const Navbar = () => {
           </button>
         </div>
       </div>
-        <div className='flex items-center justify-center flex-wrap py-4 gap-4' id='searchFilter'>
+        <div className='flex items-center justify-center flex-wrap py-4 gap-4 mb-4' id='searchFilter'style={{ background: 'linear-gradient(rgb(31 29 29), rgb(14 14 14))' }}>
           <select name="location" id="location" className='py-2 rounded-md px-2 text-gray-600'>
             <option value="delhi">Delhi</option>
             <option value="noida">Noida</option>
