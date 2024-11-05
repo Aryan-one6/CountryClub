@@ -6,6 +6,7 @@ import Blog from './Pages/Blog';
 import Footer from './components/Footer';
 import { useEffect } from 'react';
 import Services from './Pages/Services';
+import ServiceProviderDetails from './Pages/ServiceProviderDetails';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/About' element={<About/>}/>
           <Route path='/Blog' element={<Blog/>}/>
           <Route path='/Services' element={<Services/>}/>
+          <Route path='/ServiceProvider/:ProviderId/:name' element={<ServiceProviderDetails/>}/>
         </Routes>
         <Footer/>
     </div>
