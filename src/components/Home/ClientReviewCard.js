@@ -48,7 +48,7 @@ const ClientReviewCard = () => {
                         </div>
                     ))
                 ) : (
-                    <p className="text-white">No service provider details available.</p>
+                    <p className="text-white">No service provider detailss available.</p>
                 )}
             </div>
         </div>
