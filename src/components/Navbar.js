@@ -15,14 +15,30 @@ export const Navbar = () => {
         </div>
 
         <div className='flex gap-2'>
-          <Link to={'/Services'}>
-          <button className="bg-indigo-500 h-10 flex items-center space-x-2 px-4 rounded text-white">
-            Services
-            <LanguageIcon sx={{ color: 'white' }} />
+          <Link to={'/'}>
+          <button className="bg-transparent h-10 flex items-center space-x-2 px-4 rounded text-white">
+            Home
+            {/* <LanguageIcon sx={{ color: 'white' }} /> */}
           </button>
+
           </Link>
-          <button className="bg-indigo-500 h-10 flex items-center space-x-2 px-4 rounded text-white">
-            SignIn
+          <Link to={'/Services'}>
+          <button className="bg-transparent h-10 flex items-center space-x-2 px-4 rounded text-white">
+            Services
+            {/* <LanguageIcon sx={{ color: 'white' }} /> */}
+          </button>
+
+          </Link>
+          <Link to={'/About'}>
+          <button className="bg-transparent h-10 flex items-center space-x-2 px-4 rounded text-white">
+            About
+            {/* <LanguageIcon sx={{ color: 'white' }} /> */}
+          </button>
+
+          </Link>
+
+          <button className="bg-yellow-500 h-10 flex items-center space-x-2 px-4 rounded text-white">
+            {/* SignIn */}
             <PersonIcon sx={{ color: "white" }} />
           </button>
         </div>
